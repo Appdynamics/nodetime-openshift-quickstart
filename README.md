@@ -48,7 +48,7 @@ Then push the repo
 
 That's it, you can now checkout your application at:
 <pre>
-  http://nodetimeshowcase-$yournamespace.rhcloud.com
+  http://nodetime-$yournamespace.rhcloud.com
 </pre>
 
 And visit Nodetime's web console from https://nodetime.com/apps page.

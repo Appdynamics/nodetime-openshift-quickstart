@@ -1,4 +1,13 @@
 #!/bin/env node
+
+
+// Nodetime initializtion
+require('nodetime').profile({
+    accountKey: 'my_account_key',
+    appName: 'My OpenShift Node.js App'
+});
+
+
 //  OpenShift sample Node application
 var express = require('express');
 var fs      = require('fs');

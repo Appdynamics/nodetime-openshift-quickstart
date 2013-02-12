@@ -25,6 +25,7 @@
   },
 
   "dependencies": {
+    "nodetime": ">=0.8.0"
   },
   "devDependencies": {},
   "bundleDependencies": [],

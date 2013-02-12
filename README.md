@@ -12,7 +12,7 @@ Create an account at http://openshift.redhat.com/ and set up you local machine w
 
 Create a node-0.6 application (you can call your application whatever you want)
 <pre>
-  rhc app create nodetime node-0.6
+  rhc app create nodetime nodejs-0.6
 </pre>
 
 Add this upstream Nodetime Quickstart repo

@@ -10,18 +10,11 @@ Create a Nodetime account at https://nodetime.com/signup.
 
 Create an account at http://openshift.redhat.com/ and set up you local machine with the client tools.
 
-Create a node-0.6 application (you can call your application whatever you want)
+Create a node-0.6 application (you can call your application whatever you want) and change into the application directory.
 <pre>
-  rhc app create nodetime nodejs-0.6
-</pre>
-
-Add this upstream Nodetime Quickstart repo
-<pre>
+  rhc app create nodetime nodejs-0.6 --from-code https://github.com/openshift/nodetime-openshift-quickstart
   cd nodetime
-  git remote add upstream -m master git://github.com/openshift/nodetime-openshift-quickstart.git
-  git pull -s recursive -X theirs upstream master
 </pre>
-
 
 ###Configuration###
 Configure <strong>server.js</strong> file with your information:
